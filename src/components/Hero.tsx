@@ -19,7 +19,7 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="https://cdn.poehali.dev/projects/ec90a1f6-ec98-4c23-a7ed-5f2e57b1f08a/files/599ad114-8242-45bd-b8a6-800ba77ff795.jpg"
+          src="/images/mountain-landscape.jpg"
           alt="АЗИмпакт — системный маркетинг для бьюти и медицины"
           className="w-full h-full object-cover"
         />
