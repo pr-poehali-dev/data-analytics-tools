@@ -19,19 +19,32 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/ec90a1f6-ec98-4c23-a7ed-5f2e57b1f08a/files/599ad114-8242-45bd-b8a6-800ba77ff795.jpg"
+          alt="АЗИмпакт — системный маркетинг для бьюти и медицины"
           className="w-full h-full object-cover"
         />
+        <div className="absolute inset-0 bg-black/55" />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
-        </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+      <div className="relative z-10 text-center text-white px-6 max-w-5xl mx-auto">
+        <p className="text-xs md:text-sm uppercase tracking-[0.3em] mb-6 text-neutral-300">
+          Агентство системного маркетинга
         </p>
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 leading-none">
+          АЗИ<span className="text-transparent" style={{ WebkitTextStroke: "2px white" }}>МПАКТ</span>
+        </h1>
+        <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 mb-10 leading-relaxed">
+          Строим полную маркетинговую систему для бьюти и медицины.<br />
+          Не отдельные инструменты — а результат.
+        </p>
+        <a
+          href="https://vk.me/azimpact"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block border border-white text-white px-8 py-3 uppercase text-sm tracking-widest hover:bg-white hover:text-black transition-all duration-300"
+        >
+          Готовы к системе?
+        </a>
       </div>
     </div>
   );

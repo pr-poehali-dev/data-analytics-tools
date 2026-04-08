@@ -18,21 +18,30 @@ export default function Promo() {
       <div className="fixed top-[-10vh] left-0 h-[120vh] w-full">
         <motion.div style={{ y }} className="relative w-full h-full">
           <img
-            src="/images/spiral-circles.jpg"
-            alt="Abstract spiral circles"
+            src="https://cdn.poehali.dev/projects/ec90a1f6-ec98-4c23-a7ed-5f2e57b1f08a/files/d84570fb-2c92-463f-9628-2613c1337fbf.jpg"
+            alt="Маркетинговая воронка АЗИмпакт"
             className="w-full h-full object-cover"
           />
+          <div className="absolute inset-0 bg-black/60" />
         </motion.div>
       </div>
 
-      <h3 className="absolute top-12 right-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg">
-        Анатомия возможностей
+      <h3 className="absolute top-12 right-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg tracking-widest">
+        Бьюти и медицина
       </h3>
 
-      <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-5xl z-10">
-        Каждая секция — рамка для твоей истории. Формируй её, миксуй и позволь контенту
-        литься в неожиданные паттерны, заставляя листать дальше.
+      <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-3xl z-10 leading-tight">
+        Перестаньте терять клиентов из-за несистемного маркетинга — один звонок меняет всё.
       </p>
+
+      <a
+        href="https://vk.me/azimpact"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="absolute bottom-12 left-6 z-10 border border-white text-white px-6 py-3 uppercase text-sm tracking-widest hover:bg-white hover:text-black transition-all duration-300"
+      >
+        Написать в ВК →
+      </a>
     </div>
   );
 }
